@@ -8,7 +8,7 @@ Workflow:
 How to run calibration:
 
 1. Prepare simulation in GAMA headless mode
-2. In Python, run: python3 GA_calibration_parallel.py --population_size 128 --num_generations 10000 --mutation_rate 0.01 
+2. In calibration_python folder, run: python GA_calibration_parallel.py --population_size 128 --num_generations 10000 --mutation_rate 0.01 
 
 
 Cite this work: Dang H-T, Gaudou B, Verstaevel N. HyPedSim: A Multi-Level Crowd-Simulation Framework—Methodology, Calibration, and Validation. Sensors. 2024; 24(5):1639. https://doi.org/10.3390/s24051639
