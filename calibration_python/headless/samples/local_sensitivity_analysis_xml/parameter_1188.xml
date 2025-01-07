@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Experiment_plan>
+ <Simulation experiment="test" finalStep="3805" id="1" sourcePath="../HyPedSim/models/Experiments/Lyon_exit/calibration/FoL_crowd_exit_calibration.gaml">
+  <Parameters>
+   <Parameter name="sim_idx" type="INT" value="1188" var="sim_idx"/>
+   <Parameter name="MAX_DELAY" type="INT" value="9" var="MAX_DELAY"/>
+   <Parameter name="PROB_CONSTANTINE" type="FLOAT" value="0.91" var="PROB_CONSTANTINE"/>
+   <Parameter name="PROB_CHENAVARD" type="FLOAT" value="0.76" var="PROB_CHENAVARD"/>
+   <Parameter name="MAXIMUM_SPEED" type="FLOAT" value="1.35" var="MAXIMUM_SPEED"/>
+   <Parameter name="MINIMUM_SPEED" type="FLOAT" value="0.15" var="MINIMUM_SPEED"/>
+   <Parameter name="MAXIMUM_DENSITY" type="FLOAT" value="6.36" var="MAXIMUM_DENSITY"/>
+   <Parameter name="MINIMUM_DENSITY" type="FLOAT" value="0.11" var="MINIMUM_DENSITY"/>
+   <Parameter name="A" type="FLOAT" value="1.83" var="A"/>
+   <Parameter name="B" type="FLOAT" value="0.45" var="B"/>
+   <Parameter name="preferred_speed" type="FLOAT" value="1.0" var="preferred_speed"/>
+   <Parameter name="reaction_time" type="FLOAT" value="0.57" var="reaction_time"/>
+  </Parameters>
+ </Simulation>
+</Experiment_plan>
