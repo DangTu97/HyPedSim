@@ -19,8 +19,7 @@ How to run calibration:
 
 2. In calibration_python folder, run: python GA_calibration_parallel.py --population_size 128 --num_generations 10000 --mutation_rate 0.01 
 
-How to run local sensitivity analysis:
-
-In calibration_python folder, run: python local_sensitivity_analysis.py
+How to run local sensitivity analysis: 
+- In calibration_python folder, run: python local_sensitivity_analysis.py
 
 Cite this work: Dang H-T, Gaudou B, Verstaevel N. HyPedSim: A Multi-Level Crowd-Simulation Framework—Methodology, Calibration, and Validation. Sensors. 2024; 24(5):1639. https://doi.org/10.3390/s24051639
