@@ -13,13 +13,14 @@ Prerequisites:
 How to run calibration:
 
 1. Prepare simulation in GAMA headless mode
-    - Copy all folders in calibration_python/headless to GAMA installation folder.
-    - Config the path gama_headless_folder = '' in GA_calibration_parallel.py
-    - Config number of process in parallel.
+  - Copy all folders in calibration_python/headless into headless folder in GAMA installation folder.
+  - Set the path for gama_headless_folder variable in GA_calibration_parallel.py
+  - Set the number of processes for parallel execution in GA_calibration_parallel.py.
 
 2. In calibration_python folder, run: python GA_calibration_parallel.py --population_size 128 --num_generations 10000 --mutation_rate 0.01 
 
 How to run local sensitivity analysis:
 
+In calibration_python folder, run: python local_sensitivity_analysis.py
 
 Cite this work: Dang H-T, Gaudou B, Verstaevel N. HyPedSim: A Multi-Level Crowd-Simulation Framework—Methodology, Calibration, and Validation. Sensors. 2024; 24(5):1639. https://doi.org/10.3390/s24051639
