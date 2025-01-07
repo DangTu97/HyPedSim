@@ -156,7 +156,7 @@ def fitness(individual_with_key):
               'sim_idx': str(key)}
     
     xml_file_path = gama_headless_folder + '/samples/local_sensitivity_analysis_xml/parameter_' + str(key) + '.xml'
-    sim_result_file = gama_headless_folder + '/samples/HyPedSim/models/Experiments/Lyon_exit/calibration/output/results_' + str(key) + '.csv'
+    sim_result_file = gama_headless_folder + '/samples/HyPedSim_framework/models/Experiments/Lyon_exit/calibration/output/results_' + str(key) + '.csv'
     
     update_xml_file(xml_file_path, inputs)
     run_simulation(key)

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Experiment_plan>
- <Simulation experiment="test" finalStep="3805" id="1" sourcePath="../HyPedSim/models/Experiments/Lyon_exit/calibration/FoL_crowd_exit_calibration.gaml">
+ <Simulation experiment="test" finalStep="3805" id="1" sourcePath="../HyPedSim_framework/models/Experiments/Lyon_exit/calibration/FoL_crowd_exit_calibration.gaml">
   <Parameters>
    <Parameter name="sim_idx" type="INT" value="20" var="sim_idx"/>
-   <Parameter name="MAX_DELAY" type="INT" value="10" var="MAX_DELAY"/>
-   <Parameter name="PROB_CONSTANTINE" type="FLOAT" value="0.5" var="PROB_CONSTANTINE"/>
-   <Parameter name="PROB_CHENAVARD" type="FLOAT" value="0.17" var="PROB_CHENAVARD"/>
-   <Parameter name="MAXIMUM_SPEED" type="FLOAT" value="1.32" var="MAXIMUM_SPEED"/>
-   <Parameter name="MINIMUM_SPEED" type="FLOAT" value="0.06" var="MINIMUM_SPEED"/>
-   <Parameter name="MAXIMUM_DENSITY" type="FLOAT" value="6.26" var="MAXIMUM_DENSITY"/>
-   <Parameter name="MINIMUM_DENSITY" type="FLOAT" value="0.07" var="MINIMUM_DENSITY"/>
-   <Parameter name="A" type="FLOAT" value="0.72" var="A"/>
-   <Parameter name="B" type="FLOAT" value="0.12" var="B"/>
-   <Parameter name="preferred_speed" type="FLOAT" value="1.4" var="preferred_speed"/>
-   <Parameter name="reaction_time" type="FLOAT" value="0.48" var="reaction_time"/>
+   <Parameter name="MAX_DELAY" type="INT" value="0" var="MAX_DELAY"/>
+   <Parameter name="PROB_CONSTANTINE" type="FLOAT" value="0.01" var="PROB_CONSTANTINE"/>
+   <Parameter name="PROB_CHENAVARD" type="FLOAT" value="0.71" var="PROB_CHENAVARD"/>
+   <Parameter name="MAXIMUM_SPEED" type="FLOAT" value="1.13" var="MAXIMUM_SPEED"/>
+   <Parameter name="MINIMUM_SPEED" type="FLOAT" value="0.2" var="MINIMUM_SPEED"/>
+   <Parameter name="MAXIMUM_DENSITY" type="FLOAT" value="7.73" var="MAXIMUM_DENSITY"/>
+   <Parameter name="MINIMUM_DENSITY" type="FLOAT" value="0.28" var="MINIMUM_DENSITY"/>
+   <Parameter name="A" type="FLOAT" value="2.48" var="A"/>
+   <Parameter name="B" type="FLOAT" value="0.31" var="B"/>
+   <Parameter name="preferred_speed" type="FLOAT" value="1.34" var="preferred_speed"/>
+   <Parameter name="reaction_time" type="FLOAT" value="0.46" var="reaction_time"/>
   </Parameters>
  </Simulation>
 </Experiment_plan>
